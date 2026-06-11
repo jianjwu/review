@@ -1,0 +1,17 @@
+SolidworksMCP-python-main/.venv/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+.generated/
+.rollback_backup/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+build/
+dist/
+
+*.log
+debug.log
+~$*

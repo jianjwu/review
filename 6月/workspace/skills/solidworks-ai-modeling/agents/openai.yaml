@@ -1,0 +1,4 @@
+interface:
+  display_name: "SolidWorks AI Modeling"
+  short_description: "SolidWorks drawing-to-model workflow."
+  default_prompt: "Use -ai-modeling to analyze this engineering drawing, confirm unclear dimensions, and build the SolidWorks model with organized outputs."

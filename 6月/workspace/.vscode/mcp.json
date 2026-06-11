@@ -1,0 +1,20 @@
+﻿{
+    "servers":  {
+                    "solidworks-mcp-server":  {
+                                                  "type":  "stdio",
+                                                  "command":  "powershell",
+                                                  "args":  [
+                                                               "-NoProfile",
+                                                               "-ExecutionPolicy",
+                                                               "Bypass",
+                                                               "-File",
+                                                               "C:\\Users\\Administrator\\Desktop\\workspace\\SolidworksMCP-python-main\\run-mcp.ps1",
+                                                               "--real",
+                                                               "--year",
+                                                               "2022",
+                                                               "--log-level",
+                                                               "INFO"
+                                                           ]
+                                              }
+                }
+}

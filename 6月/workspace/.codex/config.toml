@@ -1,0 +1,16 @@
+﻿[mcp_servers.solidworks_mcp]
+command = 'powershell'
+args = [
+  '-NoProfile',
+  '-ExecutionPolicy',
+  'Bypass',
+  '-File',
+  'C:\Users\Administrator\Desktop\workspace\SolidworksMCP-python-main\run-mcp.ps1',
+  '--real',
+  '--year',
+  '2022',
+  '--log-level',
+  'INFO'
+]
+startup_timeout_sec = 60
+tool_timeout_sec = 300
